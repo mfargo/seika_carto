@@ -82,7 +82,11 @@ cd ~/Documents/mapmaking
 
 ![Open Postgres](tutorial/tut-postgres.png)
 
-何個かの筒状のアイコンが出てきます。そこから、自分のパソコンの名前の筒をダブルクリックしてください（postgresとかtemplateじゃないもの）
+何個かの筒状のアイコンが出てくるはずですが、以下の画像のように、立ち上げ時点で筒状のアイコンが現れない場合は、右のゾウさんの下にある「Initialize」ボタンをクリックしてください。
+
+![No DB](tutorial/postgreserror.png)
+
+そこから、自分のパソコンの名前の筒をダブルクリックしてください（postgresとかtemplateじゃないもの）
 
 ![Open Command](tutorial/tut-database.png)
 
