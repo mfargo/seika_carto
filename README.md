@@ -80,15 +80,15 @@ cd ~/Documents/mapmaking
 あとは、地図用のデータベースを設定するだけです。
 ゾウさんのアイコンをクリックして、「Open Postgres」を選びます。
 
-![Open Postgres](tutorial/tut-postgres.png)
+<img src="tutorial/tut-postgres.png" alt="Open Postgres" width="400"/>
 
 何個かの筒状のアイコンが出てくるはずですが、以下の画像のように、立ち上げ時点で筒状のアイコンが現れない場合は、右のゾウさんの下にある「Initialize」ボタンをクリックしてください。
 
-![No DB](tutorial/postgreserror.png)
+<img src="tutorial/postgreserror.png" alt="No DB" width="400"/>
 
 そこから、自分のパソコンの名前の筒をダブルクリックしてください（postgresとかtemplateじゃないもの）
 
-![Open Command](tutorial/tut-database.png)
+<img src="tutorial/tut-database.png" alt="Open Command" width="400"/>
 
 ダブルクリックすると、新たにターミナルのウィンドウが開きます。これはPostGresのコマンドラインです。僕のパソコンは「fargo」という名で、コマンドラインは以下のような感じです。
 ```
