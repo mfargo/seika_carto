@@ -130,7 +130,7 @@ http://download.geofabrik.de/asia/japan/kansai.html
 
 ダウンロードは多少時間がかかりそうなので、OpenStreetMapsデータをデータベース仕様に変換するツールをインストールしましょう。
 
-### 6. データ変換ツール「OSM2PQSQL」をインストール
+### 6. データ変換ツール「OSM2PGSQL」をインストール
 
 ここは簡単です
 ```
