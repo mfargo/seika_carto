@@ -68,7 +68,7 @@ https://postgresapp.com/downloads.html
 
 インストールが終了したら、Applicationsフォルダから立ち上げると、メニューバーにゾウさん（🐘）のアイコンが現れます。
 
-Terminalから次のコマンドを実行します。
+新しいTerminalのウィンドウを開いて、次のコマンドを実行します。
 ```
 echo 'export PATH="/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH"' >> ~/.zshrc
 source ~/.zshrc
@@ -180,6 +180,15 @@ curl https://www.naturalearthdata.com/download/10m/cultural/ne_10m_populated_pla
 最後にアプリをコンパイルします。
 ```
 cd ~/Documents/mapmaking/mapbox-osm
+cp configure.py.sample configure.py
+```
+
+この「configure.py」というフィアルを「テキストエディット」で開いてください。13行目で、プロジェクト名を好きな名前に変えてください（とにかく変える必要があります）
+```config["name"] = "MY PROJECT NAME"```
+
+あとはコンパイルだけです。ターミナルに戻って、次のコマンドを実行してください。
+
+```
 ./make.py
 ```
 
