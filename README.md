@@ -195,6 +195,7 @@ cp configure.py.sample configure.py
 あとはアプリを起動させるだけです。
 
 ```
+cd ~/Documents/mapmaking/tilemill
 npm start
 ```
 
