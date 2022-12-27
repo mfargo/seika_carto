@@ -70,8 +70,8 @@ https://postgresapp.com/downloads.html
 
 Terminalから次のコマンドを実行します。
 ```
-echo 'export PATH="/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH"' >> ~/.bash_profile
-source ~/.bash_profile
+echo 'export PATH="/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
 ```
 念のために、Terminalを終了させて、再度開きます。もう一度、地図用のフォルダに移動します。
 ```
