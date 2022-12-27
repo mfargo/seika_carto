@@ -189,7 +189,7 @@ cp configure.py.sample configure.py
 あとはコンパイルだけです。ターミナルに戻って、次のコマンドを実行してください。
 
 ```
-./make.py
+python2 make.py
 ```
 
 あとはアプリを起動させるだけです。
