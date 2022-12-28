@@ -189,7 +189,10 @@ cp configure.py.sample configure.py
 あとはコンパイルだけです。ターミナルに戻って、次のコマンドを実行してください。
 
 ```
-python2 make.py
+brew install pyenv
+pyenv install 2.7.18
+pyenv local 2.7.18
+python make.py
 ```
 
 あとはアプリを起動させるだけです。
